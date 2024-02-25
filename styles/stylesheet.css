@@ -1,54 +1,97 @@
 h1 {
     color: white;
     border-style: solid;
-    border-width: 1px;
-    border-color: white;
+    border-width: 3px;
+    border-color: maroon;
     background-color: black;
     padding: 1rem;
     width: 25%;
 }
 
-nav {
+h2 {
+    color: maroon;
+    border-style: dotted;
+    border-color: white;
+    border-width: 4px;
+    padding: 1rem;
+    width: 25%;
+}
+
+h2:hover {
+    color: white;
+    border-style: dotted;
+    border-color: maroon;
+    border-width: 4px;
+    padding: 1rem;
+    width: 25%;
+}
+
+h3 {color: maroon}
+
+.nav-links {
     border-style: solid;
     border-width: 1px;
     border-color: white;
+    background-color: maroon;
+    padding: 1rem;
+    width: 25%;
+    color: white; 
+}
+
+.nav-links:hover {
     background-color: black;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: maroon;
     padding: 1rem;
     width: 25%;
 }
 
-p {
-    color: white;
+body {
+    background-color: goldenrod;
 }
 
-body {
-    background-color: dodgerblue;
+p {
+    color: black;
 }
 
 img {
     border-style: solid;
     border-color: black;
-    border-width: 2px;
+    border-width: 1px;
     width: 25%;
     height: auto;
 }
 
-a {
+.project-links {color: white;}
+
+.project-links:hover {
+    background-color: maroon;
     color: white;
 }
 
-a:hover {
-    background-color: black;
+.project-links:visited {
+    color: gray;
 }
 
-ul {
+.project-links:hover:visited {
+    background-color: maroon;
     color: white;
 }
 
 aside {
     border-style: dashed;
-    border-color: white;
+    border-color: maroon;
     border-width: 2px;
     width: 50%;
     padding: 1rem;
+}
+
+ul.careers-list {
+    color: white;
+}
+
+#footer-text {
+    color: maroon;
 }
