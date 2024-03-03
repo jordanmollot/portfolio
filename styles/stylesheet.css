@@ -1,3 +1,27 @@
+.about-me {
+    width: 75%;
+    border-style: none;
+    padding: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+.possible-careers {
+    width: 25%;
+    border-style: dashed;
+    border-color: maroon;
+    border-width: 2px;
+    margin-left: 1rem;
+    margin-right: 4rem;
+    padding: 1rem;
+  }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
 h1 {
     color: white;
     border-style: solid;
@@ -80,13 +104,14 @@ img {
     color: white;
 }
 
-aside {
+/*aside {
     border-style: dashed;
     border-color: maroon;
     border-width: 2px;
     width: 50%;
     padding: 1rem;
 }
+*/
 
 ul.careers-list {
     color: white;
