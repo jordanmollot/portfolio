@@ -51,12 +51,18 @@ h2 {
 
 h2:hover {
     color: white;
+    font-size: 2em;
     border-style: dotted;
     border-color: maroon;
     border-width: 4px;
     padding: 1rem;
     width: 25%;
 }
+
+h2 {
+    transition: font-size 2s ease-in 0s;
+}
+
 
 h3 {
     color: maroon;
@@ -83,9 +89,18 @@ h3 {
     width: 25%;
 }
 
+.nav-links {
+    transition: background-color 1s ease-in 0s;
+}
+
 p {
     color: black;
 }
+
+.text:nth-child(odd) {
+    color: white;
+}
+
 
 img {
     border-style: solid;
@@ -97,16 +112,16 @@ img {
 
 .project-links {color: white;}
 
-.project-links:hover {
-    background-color: maroon;
-    color: white;
-}
-
 .project-links:visited {
     color: gray;
 }
 
 .project-links:hover:visited {
+    background-color: maroon;
+    color: white;
+}
+
+.project-links:hover {
     background-color: maroon;
     color: white;
 }
