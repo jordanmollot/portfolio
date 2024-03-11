@@ -35,8 +35,13 @@ h1 {
     border-color: maroon;
     background-color: black;
     padding: 1rem;
-    width: 25%;
+    width: 50%;
     font-family: Arvo;
+    transition: width 1s ease-in 0s;
+}
+
+h1:hover {
+    width: 25%;
 }
 
 h2 {
@@ -47,6 +52,7 @@ h2 {
     padding: 1rem;
     width: 25%;
     font-family: Arvo;
+    transition: font-size 1s ease-in 0s;
 }
 
 h2:hover {
@@ -58,11 +64,6 @@ h2:hover {
     padding: 1rem;
     width: 25%;
 }
-
-h2 {
-    transition: font-size 2s ease-in 0s;
-}
-
 
 h3 {
     color: maroon;
